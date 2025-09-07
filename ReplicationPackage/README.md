@@ -171,7 +171,7 @@ dotnet-rgit --cmd simulate-recommender --recommendation-strategy TurnoverRec --s
 
 ## Dump the Simulation Data to CSV
 
-Log in to the database of each project and run the following command to find the IDs of your simulation.
+To get your simulation IDs, connect to your local SQL Server instance and run the following query for each project. This query is a sample for the Rolsyn project.
 
 ```SQL
 -- Get the Id of the simulation 
@@ -181,7 +181,7 @@ SELECT  Id,
 	EndDateTime
 	PullRequestReviewerSelectionStrategy,
 	SimulationType 
-FROM LossSimulations
+FROM [Roslyn_PlusPlus].[dbo].[LossSimulations]
 WHERE EndDateTime > StartDateTime
 ORDER BY StartDateTime DESC
 ```
