@@ -1,5 +1,5 @@
 # Replication Package
-This repository contains the necessary data to replicate the information from the study "_The Cost vs. the Benefit of Adding an Extra Code Reviewer to Mitigate Developer Turnover through Reviewer Recommenders_" which is published in [ICSE'26](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/28/The-Cost-vs-the-Benefit-of-Adding-an-Extra-Code-Reviewer-to-Mitigate-Developer-Turnov). First, you should install the dependencies for the replication package, and then follow the instructions in the [README File](ReplicationPackage/README.md) to run the simulations.
+This repository contains the necessary data to replicate the information from the "_The Cost vs. the Benefit of Adding an Extra Code Reviewer to Mitigate Developer Turnover through Reviewer Recommenders_" study, which is presented at [ICSE'26](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/28/The-Cost-vs-the-Benefit-of-Adding-an-Extra-Code-Reviewer-to-Mitigate-Developer-Turnov). First, you should install the dependencies for the replication package, and then follow the instructions in the [README File](ReplicationPackage/README.md) to run the simulations.
 
 ## Dependencies
 
@@ -32,7 +32,7 @@ For example, you can find answers to the following questions by running a simple
 
 ### Install (dotnet Global Tool)
 
-SofiaWL-LearnerPlusPlus is a [dotnet Global tool](https://www.nuget.org/packages/SofiaWL-LearnerPlusPlus) based on RelationalGit. You should install this tool to run the simulations. You can use it seamlessly with your favorite command-line application. 
+`SofiaWL-LearnerPlusPlus` is a [dotnet Global tool](https://www.nuget.org/packages/SofiaWL-LearnerPlusPlus) based on RelationalGit. You should install this tool to run the simulations. You can use it seamlessly with your favorite command-line application. 
 
 ```PowerShell
 dotnet tool install --global SofiaWL-LearnerPlusPlus --version 1.1.5
